@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .awesome, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.awesome-heading {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.awesome-paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome-button, .cfa-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 4px;
+}
+
+.awesome-button {
+    border: none;
+}
+
+.cfa {
+    background-color: #3882F6;
+}
+
+.cfa-button {
+    border: 2px solid white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
